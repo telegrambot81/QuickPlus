@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 */5 * * * * /home/Your_dir/launch.sh # put your directory
 THIS_DIR=$(cd $(dirname $0); pwd)
 cd $THIS_DIR
