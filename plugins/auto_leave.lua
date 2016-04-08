@@ -1,5 +1,5 @@
 do local function run(msg, matches) 
-local user_bot = 202886555 
+local user_bot =  194647263
 local receiver = get_receiver(msg)
     if matches[1] == 'leave' and is_sudo(msg) then
        channel_kick_user("channel#id"..msg.to.id, 'user#id'..user_bot, ok_cb, false)
