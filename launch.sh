@@ -1,5 +1,5 @@
-﻿#!/usr/bin/env bash
-*/5 * * * * /home/Your_dir/launch.sh # put your directory
+#!/usr/bin/env bash
+
 THIS_DIR=$(cd $(dirname $0); pwd)
 cd $THIS_DIR
 
@@ -110,6 +110,6 @@ else
     echo "Run $0 install"
     exit 1
   fi
-#By @PokerFace_Dev
+
   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/quickbot.lua -l 1 -E $@
 fi
